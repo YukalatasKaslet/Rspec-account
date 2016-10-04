@@ -71,3 +71,5 @@ class OverdraftError < StandardError; end
 # p a.deposit!(10)
 # p a.withdraw!(2)
 # p a.balance
+# p a.withdraw!(-9)
+# p a.balance
